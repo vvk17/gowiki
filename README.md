@@ -1,4 +1,4 @@
-# gowiki
+# gowiki - readme
 Golang wiki example
 
 To demonstrate IBM Cloud developer service - build and deploy pipeline
