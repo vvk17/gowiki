@@ -1,0 +1,2 @@
+# gowiki
+Golang wiki example
