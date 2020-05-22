@@ -98,7 +98,8 @@ func saveHandler(w http.ResponseWriter, r *http.Request) {
 func main() {
 	p1 := &Page{Title: "Test Page", Body: []byte("This is a test page - тестовая страница")}
 	p1.save()
-	_ , _ := loadPage("Test Page")
+	var p2 string
+	p2 , _ := loadPage("Test Page")
 //	fmt.Println(p2.Title, string(p2.Body))
 	http.HandleFunc("/", handler)
 	http.HandleFunc("/view/", viewHandler)
